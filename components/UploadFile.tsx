@@ -28,7 +28,7 @@ export const UploadFile = () => {
       )}
       <motion.label
         htmlFor='file'
-        className='bg-primary text-primary-foreground rounded-full font-semibold px-5 py-3 cursor-pointer inline-block text-center'
+        className='bg-primary text-primary-foreground rounded-full font-semibold px-5 py-3 cursor-pointer inline-block text-center hover:bg-primary/80 transition-colors duration-300'
         whileTap={{ scale: 0.95 }}
         transition={{ duration: 0.5 }}
       >
